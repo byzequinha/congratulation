@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 177px 42px;
+}
+
+.menu {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #FFF;
+
+}
+
+section {
+    margin-left: 163px 0 0 123px;
+    display: inline-block;
+    margin-left: 84px;
+
+}
+
+aside {
+    display: inline-block;
+    margin-left: 47px;
+
+}
+
+h1 {
+
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+}
+
+p {
+    margin-top: 47px;
+    margin-bottom: 56px;
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+}
+
+#link {
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    button {
+        margin-top: -150px;
+        position: absolute;
+        right: 15px;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    h1 {
+        width: 278px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+    }
+
+    #link {
+        display: block;
+        text-align: center;
+        position: relative;
+        margin-bottom: 77px;
+
+    }
+
+    #logo {
+        margin-top: 40px;
+        width: 390px;
+        height: auto;
+        position: absolute;
+    }
+
+
+
+}
